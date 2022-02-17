@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dom-workshop.css">
+  <title>DOM</title>
+</head>
+<body>
+  <h1>Document Object Model</h1>
+  <h2>Registered startups</h2>
+  <table id="startups-table">
+    <th>Startup name</th>
+    <th>Area</th>
+    <th>Investment required</th>
+    <th>Approved</th>
+  </table>
+
+  <form>
+    <h2>Insert new startup</h2>
+    <input name='name' placeholder="Name" />
+    <input name="area" placeholder="Area" />
+    <input name='investment' placeholder="Investment" />
+    <select name="approval">
+      <option disabled selected value>Chose one...</option>
+      <option>Approved</option>
+      <option>Refused</option>
+      <option>Pending</option>
+    </select>
+    <button>
+      Submit
+    </button>
+  </form> 
+  <script src="./02.js"></script>
+</body>
+</html>

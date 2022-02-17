@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
+
+div {
+  border: lightblue 2px solid;
+  flex: 1 1 0%;
+
+}
+

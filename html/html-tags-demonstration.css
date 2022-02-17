@@ -1,0 +1,73 @@
+
+
+span {
+  border: 2px solid violet;
+}
+
+p:not(#quotation) {  
+  border: 2px solid purple;
+}
+
+.block {
+  background-color: aquamarine;
+  padding: 32px;
+  width: 432px;
+  height: 100%;
+  border: 1px solid lightpink;
+}
+
+.wrapper {
+  background-color: blanchedalmond;
+  padding: 16px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#left-block {
+  background-color: brown;
+}
+
+#right-block {
+  background-color: cornflowerblue;
+}
+
+a:visited {
+  color: purple;
+}
+
+div > article {
+  background-color: goldenrod;
+}
+
+div > article:hover {
+  background-color: red;
+}
+
+article:not(.inner-article) {
+  font-family: 'Comforter', cursive;
+  font-size: 80px;
+  color: slateblue
+}
+
+footer {
+  background-color: aliceblue;
+  padding: 32px 120px;
+  text-align: center;
+}
+
+header {
+  background-color: slateblue;
+  padding: 32px 120px;
+  text-align: center;
+}
+
+
+/* #quotation-wrapper::after {
+  content: 'Pseudo-element AFTER example';
+  font-family: sans-serif;
+}
+
+#quotation-wrapper::before {
+  content: 'Pseudo-element BEFORE example';
+  font-family: sans-serif;
+} */

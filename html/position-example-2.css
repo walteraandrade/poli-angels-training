@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: blueviolet;
+  position: sticky;
+  display: flex;
+  top: 0;
+  left: 0;
+  padding: 8px 64px;
+  z-index: 1;
+
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+li {
+  cursor: pointer;
+  color: white;
+}
+
+body {
+  background-color: lightcoral;
+  height: 150vh;
+}
+
+main {
+  position: relative;
+  padding: 0 64px;
+}
+
+.text-container {
+  color: white;
+  background-color: transparent;
+  position: absolute;
+  left: 40vw;
+}
+
+.display-subtitle {
+ font-size: x-large;
+}
+
+.display {
+  font-family: 'Syne Tactile', cursive;
+  font-size: 8rem;
+  text-decoration: underline;
+}
