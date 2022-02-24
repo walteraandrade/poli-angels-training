@@ -22,7 +22,6 @@ const table = document.getElementById("startups-table");
 const submitButton = document.querySelector('button');
 const form = document.querySelector('form')
 
-
 const addNewRow = (startup) => {
   const newRow  = document.createElement('tr');
 

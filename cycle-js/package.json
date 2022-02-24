@@ -1,0 +1,22 @@
+{
+  "name": "cycle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify ./src/main.js > ./dist/bundle.js -t babelify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cycle/run": "^5.7.0",
+    "xstream": "10.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babelify": "^10.0.0"
+  }
+}
