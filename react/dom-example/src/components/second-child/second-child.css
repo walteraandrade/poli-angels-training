@@ -1,0 +1,25 @@
+
+
+.second-childv1 {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  top: 320px;
+}
+
+.second-childv2 {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  top: 320px;
+}

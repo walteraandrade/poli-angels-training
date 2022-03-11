@@ -1,16 +1,22 @@
+import React from 'react'
 import './App.css'
-import NumberCard from './components/number-container'
+import { CharacterCard } from './components/character-card'
+import { CharacterDisplay } from './components/character-display'
+import { useGetCharacters } from './hooks/use-get-characters'
+import { CharacterModel } from './models'
 
 function App() {
+  const [displayCharacter, setDisplayCharacter] = React.useState<CharacterModel>()
 
+  const handleDisplayCharacter = (newDisplayCharacter: CharacterModel) => {
+    setDisplayCharacter(newDisplayCharacter)
+  }
 
+  const characters = useGetCharacters()
   return (
     <div className='wrapper'>
-    <NumberCard value='1' />
-    <NumberCard value='2'/>
-    <NumberCard value='3'/>
-    <NumberCard value='4'/>
-    <NumberCard value='5'/>
+    <CharacterDisplay character={displayCharacter} />
+    {characters?.map(character => <CharacterCard key={character.name} character={character} onClick={handleDisplayCharacter} />)}
     </div>
   )
 }

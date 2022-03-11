@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: grey;
+  height: 100vh;
+  align-items: center;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 8px 16px;
+}

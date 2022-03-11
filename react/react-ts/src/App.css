@@ -4,5 +4,9 @@
 
 .wrapper {
   background-color: gray;
-  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  width: 100vw;
 }

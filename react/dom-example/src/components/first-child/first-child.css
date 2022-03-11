@@ -1,0 +1,15 @@
+.first-childv1 {
+  background-color: lightblue;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-childv2 {
+  background-color: orangered;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
